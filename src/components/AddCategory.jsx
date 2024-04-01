@@ -2,7 +2,7 @@ import React from 'react'
 import PropTypes from 'prop-types'
 
 export const AddCategory = ({ onNewCategory }) => {
-    const [inputValue, setInputValue] = React.useState()
+    const [inputValue, setInputValue] = React.useState('')
 
     const onInputChange = (event) => {
         setInputValue(event.target.value)
